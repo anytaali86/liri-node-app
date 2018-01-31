@@ -106,7 +106,7 @@ function spotifyThis(arg, data){
 	var song = data;
 
 	if(song == ""){
-		song = 'The Sign';
+		song = 'White America';
 	} 
 
 	spotify.search({ type: 'track', query: song }, function(err, data) {
